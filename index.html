@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kacper Falęcki CV</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+
+    
+    <header class="container-lg">
+        <div class="row">
+            <div class="hello">
+                    <h2>👋 Hi, I'm Kacper</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <div class="d-flex justify-content-around">
+                    <div class="p-2">
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne" class="btn btn-outline-light">O mnie</button>
+                    </div>
+                    <div class="p-2">
+                        <button type="button"data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo" class="btn btn-outline-light">Zaintersowania</button>
+                    </div>
+                    <div class="p-2">
+                        <button type="button"data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree" class="btn btn-outline-light">Kontakt</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+    <content class="container-lg">
+        <div class="row">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div id="flush-collapseOne" class="accordion-collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">1</div>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">2</div>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <form class="mb-3" action="mailto:jankowalski@gmail.com">
+                            <label for="exampleFormControlInput1" class="form-label">Adres email:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Podaj email">
+                          </div>
+                          <div class="accordion-body">
+                            <label for="exampleFormControlTextarea1" class="form-label">Napisz:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" cols="10" placeholder="..."></textarea>
+                            <input type="submit" value="Wyślij" class="btn btn-outline-dark">
+                        </div> 
+                        </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
