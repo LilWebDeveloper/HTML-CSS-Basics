@@ -26,6 +26,6 @@ h2{
 .btn-outline-dark{
     margin-top: 1%;
 }
-.automatic{
-    margin: auto;
+.pad{
+    padding-top: 150px;
 }
