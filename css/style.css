@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{
-overflow: hidden;
+.index{
+overflow: unset;
 font-family: 'Poppins', sons-self;
 background-color:black;
 background-image:
@@ -12,9 +12,11 @@ radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
-
+.omnie{
+    overflow: hidden;
+}
 .hello{
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 h2{
@@ -23,4 +25,7 @@ h2{
 
 .btn-outline-dark{
     margin-top: 1%;
+}
+.automatic{
+    margin: auto;
 }
